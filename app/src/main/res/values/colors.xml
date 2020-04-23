@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff931e</color>
+    <color name="colorPrimaryLight">#fde8b7</color>
+    <color name="colorPrimaryDark">#ff931e</color>
+    <color name="colorAccent">#ff931e</color>
+    <color name="colorRed">#ff2d2d</color>
+
+    <!--<color name="textPrimary">#263238</color>-->
+    <color name="textPrimary">#101010</color>
+    <color name="textSecondary">#455a64</color>
+    <color name="textTertiary">#666666</color>
+    <color name="darkerGray">#aaaaaa</color>
+    <color name="lightGray">#dddddd</color>
+    <color name="colorBorder">#d6d6d6</color>
+
+    <color name="colorBorderLight">#f5f5f5</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="disabledButtonColor">@color/colorBlackTrans</color>
+
+    <color name="colorBlackTrans">#a8000000</color>
+
+    <!--V2-->
+    <color name="newcolorPrimary">#FFFFFF</color>
+    <color name="newcolorPrimaryLight">#fde8b7</color>
+    <color name="newcolorPrimaryDark">#FFFFFF</color>
+
+    <color name="white">#ffffff</color>
+
+    <!--    pallav-->
+    <color name="border_grey">#cccccc</color>
+    <color name="drawableColor">#4C4C4C</color>
+    <color name="shallow_black">#94000000</color>
+
+
+    <color name="colorBorderMedium">#e7e7e7</color>
+    <color name="shimmerColor">#e7e7e7</color>
+
+
+
+    <color name="rippleColor">#30000000</color>
+    <color name="rippleColorWhiteBackground">#10000000</color>
+    <color name="rippleColorDark">#30000000</color>
+
+
+    <color name="colorBackgroundGray">#f7f7f7</color>
+    <color name="colorPink">#ffc7d2</color>
+    <color name="colorSkyBlue">#baeaf4</color>
+    <color name="colorCreamYellow">#ffebb3</color>
+
+
+</resources>

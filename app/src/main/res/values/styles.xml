@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textViewStyle">@style/BaseTextStyle</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/colorWhite</item>
+        <!--<item name="android:statusBarColor" tools:ignore="NewApi">@color/colorPrimary</item>-->
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/lightGray</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textSize">@dimen/smallerFont</item>
+    </style>
+
+    <style name="BaseTextStyle" parent="Theme.AppCompat.Light">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+    <!--    //textbox Login-->
+    <style name="usaLoginMaterialText" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/lighterFont</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorHint">@color/textTertiary</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:layout_marginBottom">@dimen/smallerFont</item>
+
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <!--        <item name="android:drawablePadding">@dimen/paddingSmall</item>-->
+        <item name="android:paddingStart">@dimen/paddingMedium</item>
+        <item name="android:paddingEnd">@dimen/paddingMedium</item>
+        <!--        <item name="android:paddingTop">@dimen/paddingSmall</item>-->
+        <!--        <item name="android:paddingBottom">@dimen/paddingSmall</item>-->
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="editText" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/lightFont</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorHint">@color/darkerGray</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cursorVisible">true</item>
+
+        <!--        <item name="android:drawablePadding">@dimen/paddingSmall</item>-->
+        <item name="android:paddingStart">@dimen/paddingMedium</item>
+        <item name="android:paddingEnd">@dimen/paddingMedium</item>
+        <!--        <item name="android:paddingTop">@dimen/paddingSmall</item>-->
+        <!--        <item name="android:paddingBottom">@dimen/paddingSmall</item>-->
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <!--    materialeditText-->
+
+    <style name="materEditText" parent="Theme.AppCompat.Light">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">1dp</item>
+        <item name="android:paddingEnd">1dp</item>
+        <item name="android:paddingTop">@dimen/paddingSmaller</item>
+        <item name="android:paddingBottom">@dimen/paddingSmaller</item>
+
+    </style>
+    <!--    text header-->
+
+
+    <style name="smallGrayTxt" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/lighterFont</item>
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/textSecondary</item>
+
+        <item name="android:cursorVisible">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="smallWhiteButtonTxt" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/lighterFont</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="smallWhiteButtonSmallerTxt" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/smallFont</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="smallWhiteButtonSemiBoldTxt" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/lighterFont</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="smallBlackClickTxt" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/lighterFont</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">@dimen/paddingSmall</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="smallBlackNoClickTxt" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/lighterFont</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">@dimen/paddingSmall</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+
+
+
+    <style name="blackLightNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/textPrimary</item>
+
+    </style>
+
+    <style name="tertiaryBlackLightNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/textTertiary</item>
+
+    </style>
+
+    <style name="tertiaryBlackRegularNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/textTertiary</item>
+
+    </style>
+
+
+    <style name="blackMediumNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">@color/textPrimary</item>
+
+    </style>
+
+    <style name="blackBoldItalicNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_bolditalic</item>
+        <item name="android:textColor">@color/textPrimary</item>
+
+    </style>
+
+    <style name="blackRegularNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/textPrimary</item>
+
+    </style>
+
+    <style name="redRegularNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/colorRed</item>
+
+    </style>
+
+    <style name="blackSemiBoldNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+
+    </style>
+
+
+
+    <style name="navigationMenuTxt" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/tinyFont</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+
+    </style>
+
+    <style name="whiteLightNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_light</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+
+
+    <style name="blackBoldNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/textPrimary</item>
+
+    </style>
+
+    <style name="boldNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+
+    </style>
+
+    <style name="orangeSemiBoldNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+
+    </style>
+
+    <style name="whiteSemiBoldNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+    <style name="whiteBoldNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+
+    <style name="whiteRegularFont" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+
+
+    <style name="redSemiBoldNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/colorRed</item>
+
+    </style>
+
+    <style name="redMediumNoClickTxt" parent="Theme.AppCompat.Light">
+
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColor">@color/colorRed</item>
+
+    </style>
+    <!--    text style with color and font ends-->
+
+    <!--    style text  from above-->
+
+
+    <style name="pageHeader" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/regularFont</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/paddingSmall</item>
+        <item name="android:layout_marginStart">@dimen/paddingSmall</item>
+        <item name="android:layout_marginEnd">@dimen/paddingSmall</item>
+    </style>
+
+
+
+
+
+    <style name="pageSubHeader" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/regularFont</item>
+    </style>
+
+    <style name="pageSubSmallHeader" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+    </style>
+    <style name="pageSubSmallerHeader" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/smallerFont</item>
+    </style>
+
+    <style name="pageSubLocation" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+    </style>
+
+    <style name="blackRegularSmallFontClickableTxt" parent="blackRegularNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+    </style>
+    <style name="blackSemiBoldSmallFontClickableTxt" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+    </style>
+
+    <style name="blackMediumSmallFontClickableTxt" parent="blackMediumNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+    </style>
+
+    <style name="blackSemiBoldRegularFontClickableTxt" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/regularFont</item>
+    </style>
+
+
+
+    <style name="pageRegularRegularFont" parent="blackRegularNoClickTxt">
+        <item name="android:textSize">@dimen/regularFont</item>
+    </style>
+    <style name="blackRegularLightFont" parent="blackRegularNoClickTxt">
+        <item name="android:textSize">@dimen/lightFont</item>
+    </style>
+
+    <style name="blackRegularSmallerFont" parent="blackRegularNoClickTxt">
+        <item name="android:textSize">@dimen/smallerFont</item>
+    </style>
+
+    <style name="blackRegularMicroFont" parent="blackRegularNoClickTxt">
+        <item name="android:textSize">@dimen/microFont</item>
+    </style>
+
+    <style name="blackSemiBoldLighterFont" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/lighterFont</item>
+    </style>
+
+    <style name="blackSemiBoldMicroFont" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/microFont</item>
+    </style>
+
+
+    <style name="blackMediumMicroFont" parent="blackMediumNoClickTxt">
+        <item name="android:textSize">@dimen/microFont</item>
+    </style>
+
+    <style name="blackItalicMicroFont" parent="blackBoldItalicNoClickTxt">
+        <item name="android:textSize">@dimen/microFont</item>
+    </style>
+
+    <style name="blackMediumSmallFont" parent="blackMediumNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+    </style>
+    <style name="blackMediumSmallerFont" parent="blackMediumNoClickTxt">
+        <item name="android:textSize">@dimen/smallerFont</item>
+    </style>
+
+
+    <style name="orangeClickablePageSubHeader" parent="orangeSemiBoldNoClickTxt">
+
+        <item name="android:textSize">@dimen/regularFont</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="orangeClickablePageSubHeaderSmallFont" parent="orangeSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="whiteSemiBoldSmallFontClickableTxt" parent="whiteSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+
+    <style name="whiteBoldRegularFontClickableTxt" parent="whiteBoldNoClickTxt">
+        <item name="android:textSize">@dimen/regularFont</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="whiteRegularSmallFontClickableTxt" parent="whiteRegularFont">
+        <item name="android:textSize">@dimen/smallFont</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="whiteRegularSmallFont" parent="whiteRegularFont">
+        <item name="android:textSize">@dimen/smallFont</item>
+    </style>
+
+    <style name="whiteRegularSmallerFontClickableTxt" parent="whiteRegularFont">
+        <item name="android:textSize">@dimen/smallerFont</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="whiteRegularMicroFontClickableTxt" parent="whiteRegularFont">
+        <item name="android:textSize">@dimen/microFont</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <style name="whiteRegularMicroFontTxt" parent="whiteRegularFont">
+        <item name="android:textSize">@dimen/microFont</item>
+    </style>
+    <style name="whiteLightSmallFontClickableTxt" parent="whiteLightNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="whiteLightMicroFont" parent="whiteLightNoClickTxt">
+        <item name="android:textSize">@dimen/microFont</item>
+    </style>
+    <style name="whiteLightTinyFont" parent="whiteLightNoClickTxt">
+        <item name="android:textSize">@dimen/tinyFont</item>
+    </style>
+    <style name="whiteSemiBoldMicroFont" parent="whiteSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/microFont</item>
+    </style>
+    <style name="whiteSemiBoldSmallerFont" parent="whiteSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/smallerFont</item>
+    </style>
+
+    <style name="redSemiBoldSmallFontTxt" parent="redSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+        <!--        <item name="android:background">?attr/selectableItemBackground</item>-->
+    </style>
+
+    <style name="redSemiBoldLighterFontTxt" parent="redSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/lighterFont</item>
+        <!--        <item name="android:background">?attr/selectableItemBackground</item>-->
+    </style>
+    <style name="redMediumMicroFont" parent="redMediumNoClickTxt">
+        <item name="android:textSize">@dimen/microFont</item>
+        <!--        <item name="android:background">?attr/selectableItemBackground</item>-->
+    </style>
+
+    <style name="orangePageSubHeaderSmallFont" parent="orangeSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+
+    </style>
+    <style name="loaderHeader" parent="blackSemiBoldNoClickTxt">
+        <item name="android:textSize">@dimen/regularFontBig</item>
+        <item name="android:padding">@dimen/paddingSmall</item>
+
+    </style>
+    <style name="loaderLightTxt" parent="blackLightNoClickTxt">
+        <item name="android:textSize">@dimen/lightFont</item>
+        <item name="android:padding">@dimen/paddingSmall</item>
+    </style>
+
+    <style name="pageImportantTxtCenter" parent="blackBoldNoClickTxt">
+        <item name="android:textSize">@dimen/largeFont</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="pageImportantTxt" parent="blackBoldNoClickTxt">
+        <item name="android:textSize">@dimen/largeFont</item>
+
+    </style>
+    <style name="pageNoColorImportantTxt" parent="boldNoClickTxt">
+        <item name="android:textSize">@dimen/largeFont</item>
+
+    </style>
+
+    <style name="pageLightTxt" parent="blackLightNoClickTxt">
+        <item name="android:textSize">@dimen/smallerFont</item>
+
+    </style>
+
+    <style name="tertiaryBlackLightMicroFontTxt" parent="tertiaryBlackLightNoClickTxt">
+        <item name="android:textSize">@dimen/microFont</item>
+
+    </style>
+    <style name="tertiaryBlackLightNanoFontTxt" parent="tertiaryBlackLightNoClickTxt">
+        <item name="android:textSize">@dimen/nanoFont</item>
+
+    </style>
+
+    <style name="tertiaryBlackLightSmallFontTxt" parent="tertiaryBlackLightNoClickTxt">
+        <item name="android:textSize">@dimen/smallFont</item>
+
+    </style>
+
+    <style name="tertiaryBlackLightSmallerFontTxt" parent="tertiaryBlackLightNoClickTxt">
+        <item name="android:textSize">@dimen/smallerFont</item>
+
+    </style>
+
+
+
+    <style name="pageRegularTertiaryTxt" parent="tertiaryBlackLightNoClickTxt">
+        <item name="android:textSize">@dimen/tinyFont</item>
+
+    </style>
+
+    <!--    pallav styles-->
+
+
+
+
+
+
+
+
+
+    <style name="collapsingBarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorBlackTrans</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/BaseTextStyle</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/colorWhite</item>
+        <!--<item name="android:statusBarColor" tools:ignore="NewApi">@color/colorPrimary</item>-->
+    </style>
+
+    <style name="collapsingToolBarTheme" parent="Widget.AppCompat.Toolbar">
+        <item name="android:gravity">center_vertical</item>
+        <item name="buttonGravity">center_vertical</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        <item name="colorControlHighlight">@color/rippleColorDark</item>
+    </style>
+
+
+    <!--______________radio button____________-->
+    <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/darkerGray</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="editTextWithGray" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/smallFont</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorHint">@color/textTertiary</item>
+        <item name="android:background">@color/colorBackgroundGray</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:gravity">top</item>
+        <item name="android:padding">@dimen/paddingSmall</item>
+    </style>
+</resources>

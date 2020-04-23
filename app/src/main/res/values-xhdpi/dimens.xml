@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    pallav-->
+    <!--Star Dimens-->
+
+    <dimen name="star_height">30dp</dimen>
+    <dimen name="star_width">30dp</dimen>
+    <dimen name="star_padding">8dp</dimen>
+    <!--    app dimens-->
+    <dimen name="paddingSmall">8dp</dimen>
+    <dimen name="paddingSmaller">4dp</dimen>
+    <dimen name="paddingMedium">16dp</dimen>
+    <dimen name="paddingLarge">24dp</dimen>
+    <dimen name="paddingExtraLarge">48dp</dimen>
+
+    <dimen name="screenMarginCustom">@dimen/paddingLarge</dimen>
+    <dimen name="screenMarginDefault">@dimen/paddingMedium</dimen>
+    <dimen name="appBarLayoutMarginTop">@dimen/paddingMedium</dimen>
+
+    <!--font sizes-->
+    <!-- fonts -->
+    <dimen name="tinyFont">8sp</dimen>
+    <dimen name="nanoFont">9sp</dimen>
+    <dimen name="microFont">10sp</dimen>
+    <dimen name="miniFont">11sp</dimen>
+    <dimen name="smallerFont">12sp</dimen>
+    <dimen name="smallFont">14sp</dimen>
+    <dimen name="lighterFont">15sp</dimen>
+    <dimen name="lightFont">16sp</dimen>
+    <dimen name="normalFont">17sp</dimen>
+    <dimen name="regularFont">18sp</dimen>
+    <dimen name="regularFontBig">22sp</dimen>
+    <dimen name="normalButtonFont">16sp</dimen>
+    <dimen name="largeFont">24sp</dimen>
+    <dimen name="largerFont">34sp</dimen>
+
+
+    <dimen name="cardHeight">400dp</dimen>
+    <dimen name="cardHeightMediumBig">364dp</dimen>
+    <dimen name="cardHeightMedium">300dp</dimen>
+    <dimen name="cardHeightMediumSmall">264dp</dimen>
+    <dimen name="cardHeightSmaller">100dp</dimen>
+    <dimen name="cardHeightSmallest">64dp</dimen>
+    <dimen name="mapHeight">400dp</dimen>
+    <dimen name="cardHeightSmall">175dp</dimen>
+    <dimen name="marginTop">100dp</dimen>
+    <dimen name="progressHeight">15dp</dimen>
+    <dimen name="buttonHeight">64dp</dimen>
+    <!--    should be half of padding Small-->
+    <dimen name="buttonGap">2dp</dimen>
+
+
+</resources>
