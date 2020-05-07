@@ -13,6 +13,14 @@
         <item name="android:statusBarColor" tools:ignore="NewApi">@color/colorWhite</item>
         <!--<item name="android:statusBarColor" tools:ignore="NewApi">@color/colorPrimary</item>-->
     </style>
+    <style name="orangeGradientButton" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/lighterFont</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/bg_button_gradient_orange_fill</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/paddingMedium</item>
+    </style>
 
     <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/lightGray</item>

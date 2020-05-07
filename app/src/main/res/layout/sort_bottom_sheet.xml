@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/paddingExtraLarge">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:gravity="center"
+        android:padding="@dimen/paddingMedium">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:text="Sort"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/lightFont" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/paddingExtraLarge">
+
+        <RadioButton
+            android:id="@+id/ascending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+
+            android:text="Ascending"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="@dimen/lightFont" />
+
+        <RadioButton
+            android:id="@+id/descending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/paddingSmall"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Descending"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="@dimen/lightFont" />
+    </RadioGroup>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sortBtn"
+        style="@style/orangeGradientButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buttonHeight"
+        android:layout_marginStart="@dimen/paddingExtraLarge"
+        android:layout_marginTop="@dimen/paddingLarge"
+        android:layout_marginEnd="@dimen/paddingExtraLarge"
+        android:text="Update"
+        android:textAllCaps="true" />
+</LinearLayout>

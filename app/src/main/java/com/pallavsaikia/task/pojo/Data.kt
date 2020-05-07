@@ -6,4 +6,6 @@ data class Data(
     val isTrending: Boolean,
     val itemHeadline: String,
     val itemText: String
-)
+){
+    var time:Long=0L
+}
